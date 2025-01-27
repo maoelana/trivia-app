@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Row, Col, Card, Button, Container, Form, ListGroup, Badge, Spinner, Jumbotron} from 'react-bootstrap';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
@@ -18,7 +19,7 @@ function GetStarted(props) {
 
   return (<Card>
     <Card.Body>
-      <Card.Title>Get Started</Card.Title>
+      <Card.Title>Let’s Get Started</Card.Title>
       <Card.Text>
         Click the button below to start a new game.
       </Card.Text>
